@@ -27,16 +27,7 @@ public class SigarTest {
 	public void testGetSwap() throws Exception {
 		sigar.getSwap();
 	}
-	
-	@Test
-	public void testGetCpu() throws Exception {
-		sigar.getCpu();
-	}
-	
-	@Test
-	public void testGetCpuInfoList() throws Exception {
-		sigar.getCpuInfoList();
-	}
+
 	
 	Sigar sigar;
 }
